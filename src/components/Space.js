@@ -1,5 +1,5 @@
 import React from 'react';
-import './Space.css';
+import '../styles/Space.css';
 
 function Space({ char, status }) {
  return (

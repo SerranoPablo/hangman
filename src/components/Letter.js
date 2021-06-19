@@ -1,5 +1,5 @@
 import React from 'react';
-import './Letter.css';
+import '../styles/Letter.css';
 
 function Letter({ char, status, changeColor }) {
  return (

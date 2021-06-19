@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Home.css';
+import '../styles/Home.css';
 import Letter from './Letter.js';
 import Space from './Space.js'
-import alphabetArray from './Alphabet';
+import alphabetArray from '../db/Alphabet';
 
 
 function Home() {
