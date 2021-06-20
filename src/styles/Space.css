@@ -8,7 +8,9 @@
  margin: 3px;
  border-bottom: 3px solid black;
 }
-
+.nothing{
+ border-bottom: 0px solid ;
+}
 .space__char{
  height: 50px;
  width: 50px;
@@ -26,3 +28,13 @@
  font-size:0;
 }
 
+@media only screen and (max-width: 600px) {
+  .space{
+   height: 30px;
+   width: 20px;
+  }
+  .space__char{
+   height: 30px;
+   width: 20px;
+  }
+}

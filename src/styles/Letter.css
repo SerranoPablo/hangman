@@ -37,3 +37,15 @@
  background-color: #d7dbde;
 }
 
+@media only screen and (max-width: 600px) {
+  .letter{
+   height: 30px;
+   width: 30px;
+   margin: 5px;
+  }
+  .letter__char{
+   height: 30px;
+   width: 30px;
+   font-size: 1.2rem;
+  }
+}

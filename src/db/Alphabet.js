@@ -103,6 +103,10 @@ var alphabetArray = [
   char: 'Z',
   status: 'standby'
  },
+ {
+  char: ' ',
+  status: 'standby'
+ }
 
 ];
 
