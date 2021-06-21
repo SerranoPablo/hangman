@@ -1,5 +1,6 @@
 .home {
  margin: 0;
+ margin-bottom: 20px;
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -139,6 +140,10 @@ input, textarea, select, a, button { outline: none; }
 
 @media only screen and (max-width: 600px) {
   .home{
+    margin-bottom: 100px;
+  }
+  .home__title{
+    margin-bottom:0;
   }
   .home__button{
     position: relative;
@@ -147,6 +152,7 @@ input, textarea, select, a, button { outline: none; }
   }
   .home__row{
     flex-direction: column;
+    margin: 20px 0;
   }
   .home__hangman{
     align-self: center;
@@ -154,4 +160,8 @@ input, textarea, select, a, button { outline: none; }
   .home__question{
     font-size: 0.8rem;
   }
+  .home__alphabet{
+    width: 95%;
+
+    }
 }
