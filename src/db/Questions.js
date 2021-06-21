@@ -1,6 +1,6 @@
 var questArray = [
  {
-  question: 'Beatle\'s song',
+  question: 'Song from The Beatles',
   answer: 'YELLOW SUBMARINE'
  },
  {
@@ -10,6 +10,14 @@ var questArray = [
  {
   question: 'Nº of cantons in Switzerland',
   answer: 'TWENTY SIX'
+ },
+ {
+  question: 'Possible founder of Bitcoin',
+  answer: 'SATOSHI NAKAMOTO'
+ },
+ {
+  question: 'Daniel Radcliffe important role',
+  answer: 'HARRY POTTER'
  },
 
 

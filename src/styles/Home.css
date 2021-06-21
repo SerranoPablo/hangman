@@ -24,7 +24,7 @@ input, textarea, select, a, button { outline: none; }
  width: 80%;
  display: flex;
  flex-direction: row;
- flex-wrap: wrap;
+ flex-wrap:nowrap;
  justify-content: center;
  margin-bottom: 30px;
 }
@@ -159,9 +159,15 @@ input, textarea, select, a, button { outline: none; }
   }
   .home__question{
     font-size: 0.8rem;
+    flex-wrap: nowrap;
   }
   .home__alphabet{
     width: 95%;
 
     }
+  
+  .Modal2{
+    width: 90vw;
+    left: 5%;
+  }
 }
